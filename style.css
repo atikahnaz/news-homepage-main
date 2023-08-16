@@ -9,6 +9,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1.8rem;
+}
+.logo {
+    width: 2.8rem;
 }
 main {
     padding-bottom: 3.5rem;
@@ -89,4 +94,10 @@ section {
 }
 .container-bottom-text p{
     color: hsl(236, 13%, 42%);
+}
+
+@media screen and (min-width: 1440px){
+    header {
+       
+    }
 }
