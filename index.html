@@ -11,7 +11,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 45%, 44%); text-decoration: none;}
   </style>
 </head>
 <body>
@@ -22,7 +22,7 @@
     <div class="menu">
       <img src="assets/images/icon-menu.svg" class="hamburger">
     </div>
-    <div class="mobile-nav" style="display: none;">
+    <div class="desktop-nav">
       <a href="#"> Home</a>
       <a href="#">New</a>
       <a href="#">Popular</a>
@@ -30,38 +30,41 @@
       <a href="#">Categories</a>
     </div>
   </nav>
-  <main>
-    <header>
-      <div class="header-image">
-        <img src="assets/images/image-web-3-mobile.jpg">
+  <div class="desktop-flex">
+    <main>
+      <header>
+        <div class="header-image">
+          <img src="assets/images/image-web-3-mobile.jpg">
+        </div>
+        <h1>The Bright Future of Web 3.0?</h1>
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?</p>
+        <button class="readmore">Read more</button>
+      </header>
+    </main>
+    <aside>
+      <h1>New </h1>
+      <div class="new-article">
+        <div class="article">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="line"></div>
+        <div class="article">
+          <h3>The Downsides of AI Artistry</h3>
+          <p> What are the possible adverse effects of on-demand AI image generation?
+          </p>
+        </div>
+        <div class="line"></div>
+        <div class="article">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>
+        </div>
       </div>
-      <h1>The Bright Future of Web 3.0?</h1>
-      <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-        But is it really fulfilling its promise?</p>
-      <button class="readmore">Read more</button>
-    </header>
-  </main>
-  <aside>
-    <h1>New </h1>
-    <div class="new-article">
-      <div class="article">
-        <h3>Hydrogen VS Electric Cars</h3>
-        <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
-      </div>
-      <div class="line"></div>
-      <div class="article">
-        <h3>The Downsides of AI Artistry</h3>
-        <p> What are the possible adverse effects of on-demand AI image generation?
-        </p>
-      </div>
-      <div class="line"></div>
-      <div class="article">
-        <h3>Is VC Funding Drying Up?</h3>
-        <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.
-        </p>
-      </div>
-    </div>
-  </aside>
+    </aside>
+  </div>
+  
   <section>
     <div class="container-bottom">
       <div class="container-bottom-image">
@@ -72,7 +75,6 @@
       <h3>Reviving Retro PCs</h3>
       <p>What happens when old PCs are given modern upgrades?</p>
       </div>
-      
     </div>
     <div class="container-bottom">
       <div class="container-bottom-image">
@@ -99,7 +101,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/atikahnaz">Atikah</a>.
   </div>
 </body>
 </html>
