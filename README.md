@@ -10,6 +10,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -40,6 +41,18 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### What I learned
+
+Position button readmore to bottom grid
+```css
+ .readmore {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        justify-self: start;
+        align-self: self-end;
+    }
+```
 
 ### Useful resources
 
